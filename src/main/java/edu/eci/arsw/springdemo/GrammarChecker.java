@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 public class GrammarChecker {
 
 	@Autowired
-	@Qualifier("Eng")
+	@Qualifier("Spn")
 	SpellChecker sc;
 
 	String x;
